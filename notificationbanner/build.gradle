@@ -5,7 +5,7 @@ group='com.github.shasin89'
 
 android {
     compileSdk 34
-    namespace "com.example.shasin.popupapplication"
+    namespace "com.shasin.notificationbanner"
 
 
     defaultConfig {

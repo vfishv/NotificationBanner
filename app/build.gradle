@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 //apply plugin: 'com.github.dcendents.android-maven'
 
 android {
-    compileSdkVersion 34
-    namespace "com.example.shasin.popupapplication"
+    compileSdk 34
+    namespace "com.example.shasin.notificationbanner"
 
     defaultConfig {
-        applicationId "com.example.shasin.popupapplication"
+        applicationId "com.example.shasin.notificationbanner"
         minSdkVersion 15
-        targetSdkVersion 26
+        targetSdkVersion 28
         versionCode 9
         versionName "1.1.0"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
